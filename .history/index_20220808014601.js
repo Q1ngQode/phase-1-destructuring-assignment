@@ -7,15 +7,11 @@ const [bessie, , dolly, babe, little] = farmAnimals.split(" ");
 const [blackAndWhite, , black, pink, ] = farmAnimals.split(" ");
 
 
-//How do I properly write the destructure for an array vs string? 
-//that should pass the next three tests successfully
-
 const [red, orange, yellow, green, blue, indigo, violet] = colors
 
 const [r, o, y, g, b, , v] = colors
 
-const [, , , , , indg, ] = colors
-
+const [ , , , , , indg, ] = colors
 const muppet = {
   muppetName: 'Miss Piggy',
   color: 'pink',

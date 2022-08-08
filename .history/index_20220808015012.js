@@ -8,7 +8,7 @@ const [blackAndWhite, , black, pink, ] = farmAnimals.split(" ");
 
 
 //How do I properly write the destructure for an array vs string? 
-//that should pass the next three tests successfully
+//that should pass the next th
 
 const [red, orange, yellow, green, blue, indigo, violet] = colors
 

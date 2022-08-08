@@ -1,20 +1,12 @@
 const farmAnimals = 'cow horse sheep pig chicken'
 
-const [moo, neigh, baa, oink, cluck] = farmAnimals.split(" ");
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(" ")
 
-const [bessie, , dolly, babe, little] = farmAnimals.split(" ");
-
-const [blackAndWhite, , black, pink, ] = farmAnimals.split(" ");
+const [bessie, , dolly, babe, Little] = farmAnimals.split(" ")
 
 
-//How do I properly write the destructure for an array vs string? 
-//that should pass the next three tests successfully
 
-const [red, orange, yellow, green, blue, indigo, violet] = colors
-
-const [r, o, y, g, b, , v] = colors
-
-const [, , , , , indg, ] = colors
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 const muppet = {
   muppetName: 'Miss Piggy',
